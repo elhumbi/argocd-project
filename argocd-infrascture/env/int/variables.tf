@@ -1,21 +1,10 @@
-
 variable "rancher_cluster_id" {
-  description = "Rancher management cluster ID"
+  description = "Rancher integration cluster ID"
   type        = string
 }
 
 variable "rancher_context" {
   description = "Rancher Kubernetes context"
-  type        = string
-}
-
-variable "int_cluster_id" {
-  description = "Integration cluster ID for cross-cluster access"
-  type        = string
-}
-
-variable "prod_cluster_id" {
-  description = "Production cluster ID for cross-cluster access"
   type        = string
 }
 
